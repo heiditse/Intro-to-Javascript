@@ -1,9 +1,19 @@
  //conditional statement that compares two numbers
 
- if (num == 16){
-   console.log('happy sweet 16');
- } else if (num > 16){
-    console.log('ok grandma');
- } else{
-    console.log('arent you a little too old to be here');
- }
+var num1 = 10;
+var num2 = 20;
+
+if (num1 === num2) {
+    alert("equal");
+} 
+else if (num1 < num2) {
+    alert("less than");
+}
+else if (num1 > num2 ) {
+    alert("greater than");
+}
+else if (num1 >= num2) {
+    alert("greater than or equal to");
+}
+else {
+    alert("less than or equal to");
